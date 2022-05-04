@@ -12,9 +12,9 @@ $mp = new MercadoPago (ACCESS_TOKEN_MERCADO_PAGO);
 $pagamento = $mp->setPreferencia ([
 	"items" => [
 		[
-			"picture_url" => "https://i.imgur.com/tsTPWau.jpg",
-			"title" => "Saldo @MandrackBOT",
-            "description" => "Saldo para o bot @MandrackBOT no Telegram",
+			"picture_url" => "https://imgur.com/a/v4UG5t3",
+			"title" => "Saldo @Recebsms_bot",
+            "description" => "Saldo para o bot @Recebsms_bot no Telegram",
             "quantity" => 1,
             "currency_id" => "BRL",
             "unit_price" => (float)$valor
