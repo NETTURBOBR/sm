@@ -6,7 +6,7 @@ if (STATUS_BONUS_ADICAO){
 
 	$tlg->sendMessage ([
 		'chat_id' => $tlg->ChatID (),
-		'text' => "⚡️ Você adicionou <b>{$total}</b> usuários no grupo @MandrackSMSChecker até agora.\n\n<u>Adicionando ".MINIMO_ADICAO." usuários você ganha R\$".number_format (BONUS_ADICAO, 2)." de saldo no bot</u>",
+		'text' => "⚡️ Você adicionou <b>{$total}</b> usuários no grupo https://t.me/Recebsms até agora.\n\n<u>Adicionando ".MINIMO_ADICAO." usuários você ganha R\$".number_format (BONUS_ADICAO, 2)." de saldo no bot</u>",
 		'parse_mode' => 'html'
 	]);
 
