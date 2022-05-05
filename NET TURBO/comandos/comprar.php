@@ -43,7 +43,7 @@ if (!isset ($pagamento ['id'])){
 
 	$tlg->editMessageText ([
 		'chat_id' => $tlg->ChatID (),
-		'text' => "💡 Pague por <em>pix, boleto, saldo ou cartão.</em>\n\n<u>Após o pagamento o saldo será adicionado na sua conta automaticamente.</u>",
+		'text' => "💡 Pague por <em>pix, boleto, saldo ou cartão.</em>\n\n<u>Após o pagamento o saldo será adicionado na sua conta automaticamente Obrigado.</u>",
 		'parse_mode' => 'html',
 		'message_id' => $tlg->MessageID (),
 		'reply_markup' => $tlg->buildInlineKeyboard ([
