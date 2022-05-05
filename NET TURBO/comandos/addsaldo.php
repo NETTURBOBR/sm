@@ -8,7 +8,7 @@ if (in_array ($tlg->UserID (), ADMS)){
 
 		$tlg->sendMessage ([
 			'chat_id' => $tlg->ChatID (),
-			'text' => "Erro, envie um id de usúario com o saldo Ex: <code>/addsaldo 275123569 10</code>",
+			'text' => "Erro, envie um id de usúario com o saldo Ex: <code>/addsaldo 275123569 8</code>",
 			'parse_mode' => 'html'
 		]);
 
