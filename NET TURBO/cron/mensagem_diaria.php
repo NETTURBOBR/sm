@@ -16,12 +16,12 @@ $tlg->sendMessage ([
 - E muitos outros...
 
 💬 Receba os códigos no nosso bot
-@ReceberSMSBot
+@Recebsms_bot
 
 🌐 Canal de Referências
-@ReceberSMS
+https://t.me/Recebsms
 📍 Nosso grupo
-@ChatReceberSMS
+https://t.me/Recebsms
 
 *Preço e serviço incomparável com os existentes.
 *Mais de 4 mil números disponíveis",
