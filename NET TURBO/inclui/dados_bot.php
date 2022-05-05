@@ -108,4 +108,4 @@ define ('MINIMO_ADICAO', 50); // Minimo de usuarios adicionados para ganhar bonu
 // SISTEMA AFILIADOS
 
 define ('STATUS_AFILIADO', true);
-define ('BONUS_AFILIADO', 15); // 15% do valor de recarga do indicado
+define ('BONUS_AFILIADO', 15); // 15% do valor de recarga do indicado.
