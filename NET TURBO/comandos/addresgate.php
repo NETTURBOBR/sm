@@ -8,7 +8,7 @@ if (in_array ($tlg->UserID (), ADMS)){
 
 		$tlg->sendMessage ([
 			'chat_id' => $tlg->ChatID (),
-			'text' => "Siga o exemplo <code>/addresgate 10</code>",
+			'text' => "Siga o exemplo <code>/addresgate 8</code>",
 			'parse_mode' => 'html'
 		]);
 
