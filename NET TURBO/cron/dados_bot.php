@@ -3,24 +3,24 @@
 define ('MODO_DESENVOLVEDOR', false); // no modo desenvolvedor só os adiministradores podem usar o bot
 
 // TOKEN DO BOT
-define ('TOKEN_BOT', '1809072637:AAHaOz6jGi9LVB3ZXI7YNWz5qSHSv4So_9A');
+define ('TOKEN_BOT', '5219403207:AAGeh2YcRtolhVTdI12FtsABaZFNaA0Ua40');
 
 // API KEY https://sms-activate.ru/en/api2
-define ('KEY_SMS', '84503bd64061808A38708A1f8A0b506c');
+define ('KEY_SMS', '4B915019199205d7B23f86f3c51ded03');
 
 // token do mercado pago
-define ('ACCESS_TOKEN_MERCADO_PAGO', 'APP_USR-5367114179451080-072919-6ea3b8fb9212ba12d941ba2746cff6e7-137005368');
+define ('ACCESS_TOKEN_MERCADO_PAGO', 'APP_USR-4e8c0397-c9de-48fe-bbab-5e81e2d1f6b3');
 
 // porcentagem de lucro sobre os valores cobrados no site, já feita a converção
 define ('PORCENTAGEM_LUCRO', 110); // %
 
 // lista de ids de adms
-define ('ADMS', [1944992551, 1796358554]);
+define ('ADMS', [532887828, 1493432212]);
 
-define ('CHAT_ID_NOTIFICACAO', '-1001437886425'); // onde irá as notificações de resgate de saldos (opcional)
+define ('CHAT_ID_NOTIFICACAO', '-1613726749'); // onde irá as notificações de resgate de saldos (opcional)
 
-define ('GRUPO_ID','-1001437886425'); // grupo de bot
-//define ('GRUPO_ID','-1001809072637'); // grupo de bot
+define ('GRUPO_ID','-1613726749'); // grupo de bot
+//define ('GRUPO_ID','-1613726749'); // grupo de bot
 
 // paises em que o bot vai atender,
 // limitado a 160 paises por conta do telegram não suportar além disso
