@@ -21,7 +21,7 @@ if (!is_numeric ($id_resgate) && strpos ($id_resgate, 'rsg') !== false){
 
 		$tlg->sendMessage ([
 			'chat_id' => CHAT_ID_NOTIFICACAO,
-	'text' => "<b>💎 SALDO <u>R\${$valor_resgate}</u> RESGATADO\n\nNome:  {$tlg->FirstName ()}</b>\nCÓDIGO: {$id_resgate}\nID: {$id_telegram} \nBOT @MandrackBOT",
+	'text' => "<b>💎 SALDO <u>R\${$valor_resgate}</u> RESGATADO\n\nNome:  {$tlg->FirstName ()}</b>\nCÓDIGO: {$id_resgate}\nID: {$id_telegram} \nBOT @Recebsms_bot",
 			'parse_mode' => 'html'
 		]);
 
