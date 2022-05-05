@@ -10,7 +10,7 @@ if ($tlg->Callback_ID () !== null){
 }
 
 $bonus = (BONUS == 0) ? '' : '<em><u>+'.BONUS.'% bônus</u></em>';
-$valor_pagamento = 15;
+$valor_pagamento = 8;
 
 if (isset ($complemento)){
 
@@ -44,8 +44,8 @@ if (isset ($complemento)){
 	}
 
 	// checagem de valor abaixo do mínimo
-	if ($valor_pagamento < 10){
-		$valor_pagamento = 10;
+	if ($valor_pagamento < 8){
+		$valor_pagamento = 8;
 	}
 
 }
