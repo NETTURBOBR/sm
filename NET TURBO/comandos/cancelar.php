@@ -51,4 +51,4 @@ if (strpos ('STATUS_OK', $status_servico) !== false || strpos ('STATUS_WAIT_RESE
 // apaga processo
 $processos->deletaProcesso ($id_processo);
 
-// By @itachivendas
+// By @Recebsms
